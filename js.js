@@ -1,12 +1,19 @@
-// var button = document.querySelector('btninseretarea');
-// var input = document.querySelector('inputinseretarefa')
-// function exibeMensagem(){
-//     alert('teste')
-// }
+var button = document.getElementById('btninseretarea');
+var body = document.body
+document.getElementById('divtarefaaberta').remove()
+var input = document.getElementById('inputinseretarefa')
 
-document.getElementById('btninseretarea').addEventListener("click", function(){
-    
-});
-// button.addEventListener('click', exibeMensagem())
+input.focus();
+input.addEventListener('keypress', function(e){
+    if(e.keyCode === 13){
+        criaElementos();
+    }
+    })
+button.addEventListener('click', function(){
+        criaElementos();     
+})
+
+
+
 
 

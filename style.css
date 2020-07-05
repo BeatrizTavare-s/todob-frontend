@@ -45,3 +45,26 @@ span.material-icons {
     color: #A9C5D4
    
 }
+
+.divtarefaaberta{
+    display: flex;
+    background-color: #144E6F;
+    margin-bottom: 20px;
+    margin-left: 20px ;
+    box-shadow: 2px 5px #0e3952;
+    margin-top: 20px;
+}
+.inputtarefaaberta{
+    width: 663px;
+    height: 40px;
+    font-size:20px ;
+    color: #A9C5D4;
+    background-color: #144E6F;    
+
+    border: none;
+    padding-left: 10px;
+}
+.btntarefaaberta{
+    background-color: #144E6F;
+    border: none;
+}
