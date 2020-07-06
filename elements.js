@@ -5,7 +5,7 @@ function criaElementos(){
     body.appendChild(novatarefa);
     
     var novatarefainput = document.createElement('input');
-    novatarefainput.className = 'inputtarefaaberta';
+    novatarefainput.className = 'input inputtarefaaberta';
     novatarefainput.value = document.getElementById('inputinseretarefa').value
     novatarefa.appendChild(novatarefainput);
     
